@@ -21,12 +21,12 @@ This project implements a full MLOps-enabled pipeline for **contrast-free synthe
 
 ##  Dataset
 
-- Source: [BraTS, TCIA, or Custom Dataset]
+- Source: [ TCIA]
 - Format: 3D MRI volumes in `.nii.gz`
 - Modalities:
   - PreT1 (input)
   - CeT1 (target)
-  - Tumor Segmentation (mask for guidance)
+  - Segmentation (mask for guidance)
 
 ---
 
